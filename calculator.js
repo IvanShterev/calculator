@@ -8,4 +8,5 @@ keys.addEventListener('click', event => {
     const key = event.target;
     const keyValue = key.textContent;
     const displayValue = display.textContent;
+    display.textContent = keyValue;
 })
